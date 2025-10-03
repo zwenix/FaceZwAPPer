@@ -7,7 +7,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/zwelakhem/zwenixface_swapper-1.0)](https://hub.docker.com/r/Zwe-MDynamix/FaceSwapper_App)
 [![Docker Image Size](https://img.shields.io/docker/image-size/Zwe-MDynamix/ZwenixFace_swAPPer-1.0)](https://hub.docker.com/r/Zwe-MDynamix/ZwenixFace_swAPPer-1.0)
-[![Build Status](https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/ZwenixFace_swAPPer-1.0/actions)
+[![Build Status](https://github.com/zwenix/FaceZwAPPer/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/zwenix/FaceZwAPPer/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A professional-grade face swapping application built with Streamlit and powered by InsightFace. This application enables real-time face swapping with high-quality results using state-of-the-art deep learning models.
@@ -39,8 +39,8 @@ Visit `http://localhost:8501` to access the application.
 
 ```bash
 # Clone the repository
-git clone https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0.git
-cd face-swapper-app
+git clone https://github.com/zwenix/FaceZwAPPer.git
+cd FaceZwAPPer
 
 # Start the application
 docker-compose up
@@ -50,8 +50,8 @@ docker-compose up
 
 ```bash
 # Clone the repository
-git clone https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0.git
-cd face-swapper-app
+git clone https://github.com/zwenix/FaceZwAPPer.git
+cd FaceZwAPPer
 
 # Create virtual environment
 python -m venv venv
@@ -77,8 +77,8 @@ streamlit run app.py
 
 ```bash
 # Build from source
-git clone https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0.git
-cd face-swapper-app
+git clone https://github.com/zwenix/FaceZwAPPer.git
+cd FaceZwAPPer
 docker build -t zwenixface_swapper-1.0 .
 docker run -p 8501:8501 ZwenixFace_swAPPer-1.0
 ```
@@ -87,8 +87,8 @@ docker run -p 8501:8501 ZwenixFace_swAPPer-1.0
 
 ```bash
 # Clone repository
-git clone https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0.git
-cd face-swapper-app
+git clone [https://github.com/zwenix/FaceZwAPPer](https://github.com/zwenix/FaceZwAPPer).git
+cd FaceZwAPPer
 
 # Install system dependencies (Ubuntu/Debian)
 sudo apt-get update
@@ -128,7 +128,7 @@ response = requests.post('http://localhost:8501/api/swap', files=files)
 ## 🏗️ Architecture
 
 ```
-face-swapper-app/
+FaceZwAPPer/
 ├── app.py                 # Main Streamlit application
 ├── src/
 │   ├── face_swapper.py    # Core face swapping logic
@@ -241,8 +241,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/face-swapper-app.git
-cd face-swapper-app
+git clone https://github.com/your-username/FaceZwAPPer.git
+cd FaceZwAPPer
 
 # Create development environment
 python -m venv dev-env
@@ -268,8 +268,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Zwe-MDynamix/ZwenixFace_swAPPer-1.0/discussions)
+- **Issues**: [GitHub Issues](https://github.com/zwenix/FaceZwAPPer/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/zwenix/FaceZwAPPer/discussions)
 - **Email**: zwenix@gmail.com
 
 ## 🔄 Changelog
