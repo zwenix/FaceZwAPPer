@@ -5,8 +5,8 @@
 
 || **Zwe_M Dynamix** | e: zwenix@gmail.com ||
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/zwelakhem/FaceZwAPPer)](https://hub.docker.com/r/zwelakhem/FaceZwAPPer)
-[![Docker Image Size](https://img.shields.io/docker/image-size/zwelakhem/FaceZwAPPer)](https://hub.docker.com/r/zwelakhem/FaceZwAPPer)
+[![Docker Pulls](https://img.shields.io/docker/pulls/zwelakhem/facezwapper)](https://hub.docker.com/r/zwelakhem/facezwapper)
+[![Docker Image Size](https://img.shields.io/docker/image-size/zwelakhem/facezwapper)](https://hub.docker.com/r/zwelakhem/facezwapper)
 [![Build Status](https://github.com/zwenix/FaceZwAPPer/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/zwenix/FaceZwAPPer/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -205,7 +205,7 @@ python -m pytest --cov=src tests/
 **1. Out of Memory Error**
 ```bash
 # Increase Docker memory limit
-docker run --memory=4g -p 8501:8501 zwelakhem/FaceZwAPPer:latest
+docker run --memory=4g -p 8501:8501 zwelakhem/facezwapper:latest
 ```
 
 **2. Model Loading Issues**
@@ -224,7 +224,7 @@ FACE_DETECTION_CONFIDENCE=0.3  # Lower = more sensitive
 
 ```bash
 # Run with debug logging
-docker run -e STREAMLIT_LOGGER_LEVEL=debug -p 8501:8501 zwelakhem/FaceZwAPPer:latest
+docker run -e STREAMLIT_LOGGER_LEVEL=debug -p 8501:8501 zwelakhem/facezwapper:latest
 ```
 
 ## 🤝 Contributing
