@@ -27,9 +27,9 @@ A professional-grade face swapping application built with Streamlit and powered 
 
 ```bash
 # Pull and run the latest image
-docker run -p 8501:8501 zwelakhem/ZwenixFace_swAPPer-1.0:latest
+docker run -p 8501:8501 zwelakhem/facezwapper
 # Or run with custom port
-docker run -p 3001:8501 zwelakhem/ZwenixFace_swAPPer-1.0:latest
+docker run -p 3001:8501 zwelakhem/facezwapper
 ```
 
 Visit `http://localhost:8501` to access the application.
